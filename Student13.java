@@ -4,6 +4,17 @@ public class Student13 {
     String kelas;
     double gpa;
 
+    public Student13() {
+
+    }
+
+    public Student13(String nm, String nim, double ipk, String kls) {
+        name = nm;
+        this.nim = nim;
+        this.gpa = ipk;
+        kelas = kls;
+    }
+
     void showInformation() {
         System.out.println("Name: " + name);
         System.out.println("NIM: " + nim);

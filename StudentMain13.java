@@ -11,5 +11,8 @@ public class StudentMain13 {
         mhs1.updateGpa(3.60);
         mhs1.showInformation();
 
+        Student13 mhs2 = new Student13("Annisa Nabila", "2141720160", 3.25, "TI 2L"); 
+        mhs2.updateGpa((3.30));
+        mhs2.showInformation();
     }
 }
