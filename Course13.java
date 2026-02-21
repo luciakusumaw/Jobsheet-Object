@@ -38,7 +38,7 @@ public class Course13 {
             numberOfHours -= hours;
             System.out.println("Hours reduced. Remaining hours: " + numberOfHours);
         } else {
-            System.out.println("Cannot reduce hours. Not enough hours.");
+            System.out.println("Cannot reduce hours. Not enough hours");
         }
     }
 }

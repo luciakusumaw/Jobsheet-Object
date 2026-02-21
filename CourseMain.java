@@ -3,7 +3,7 @@ public class CourseMain {
     public static void main(String[] args) {
 
         Course13 c1 = new Course13();
-        c1.kodeCourse = "IF101";
+        c1.kodeCourse = "IF102";
         c1.name = "Data Structures";
         c1.credits = 3;
         c1.numberOfHours = 4;
